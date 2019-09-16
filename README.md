@@ -8,6 +8,7 @@ A script for grabbing the color palette from an image. Uses Javascript and the c
 ##How to use
 
 ###Get the dominant color from an image
+###获取目标图片的主要色调
 ```js
 var colorThief = new ColorThief();
 colorThief.getColor(sourceImage);
@@ -19,6 +20,7 @@ returns {r: num, g: num, b: num}
 ```
 
 ###Build a color palette from an image
+###构建立目标图片调色板
 
 In this example, we build an 8 color palette.
 
